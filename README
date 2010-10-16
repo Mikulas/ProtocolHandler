@@ -1,0 +1,11 @@
+Author: Mikuláš Dítě
+Copyright: Mikuláš Dítě 2010
+Licence: MIT
+
+Usage with Nette Framework:
+
+        `Debug::$editor = 'edit://open/?url=file://%file&line=%line';`
+        
+Don't forget to change path to netbeans in the protocolHandler script if you
+have not installed in into the default directory (/Application/Netbeans 6.9)
+or if you use different version.
