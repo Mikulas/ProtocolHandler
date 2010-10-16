@@ -38,6 +38,8 @@
 	</dict>
 	<key>LSRequiresCarbon</key>
 	<true/>
+	<key>NSUIElement</key>
+	<string>1</string>
 	<key>WindowState</key>
 	<dict>
 		<key>dividerCollapsed</key>
