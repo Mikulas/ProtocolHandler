@@ -1,11 +1,23 @@
 Author: Mikuláš Dítě
 Copyright: Mikuláš Dítě 2010
-Licence: MIT
+License: MIT
+
+        
+Don't forget to change NetBeans path in the ProtocolHandler script if you
+have not installed in into the default directory (/Application/NetBeans 6.9)
+or if you use different version.
+
+You may edit the protocol in `info.plist` by changing 
+
+        <key>CFBundleURLSchemes</key>
+        <array>
+	        <string>edit</string>
+        </array>
+
+the `edit` to the protocol of your choice.
 
 Usage with Nette Framework:
 
-        `Debug::$editor = 'edit://open/?url=file://%file&line=%line';`
+        Debug::$editor = 'edit://open/?url=file://%file&line=%line';
         
-Don't forget to change path to netbeans in the protocolHandler script if you
-have not installed in into the default directory (/Application/Netbeans 6.9)
-or if you use different version.
+or replace `edit` with your custom protocol.
